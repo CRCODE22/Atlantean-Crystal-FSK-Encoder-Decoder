@@ -15,3 +15,9 @@ A Python-based tool to encode text into Frequency Shift Keying (FSK) audio signa
    ```bash
    git clone https://github.com/CRCODE22/CrystalFSK.git
    cd CrystalFSK
+   
+## Install dependencies
+pip install numpy scipy soundfile gradio matplotlib
+
+## Run the app
+python fsk_gradio.py
