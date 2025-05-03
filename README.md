@@ -21,3 +21,18 @@ pip install numpy scipy soundfile gradio matplotlib
 
 ## Run the app
 python fsk_gradio.py
+
+## Usage
+
+Encode: Enter text for example: "I am a smokey quartz crystal!" , set frequencies (e.g., 1000 Hz for '0', 1500 Hz for '1'), and generate an FSK audio file.
+
+Decode: Upload a 44100 Hz WAV file, use defaults (1000 Hz, 1500 Hz, 86 characters), and decode the message.
+
+Visualizations: Enable waveform, spectrogram, and spectrum for signal analysis.
+
+Batch Decode: Process multiple audio files at once.
+
+## Example
+
+Decode the recorded audio to retrieve:
+I am a smokey quartz crystal! If you used the text from the example text above ^
