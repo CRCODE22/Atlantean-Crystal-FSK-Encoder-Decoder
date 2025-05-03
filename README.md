@@ -36,3 +36,16 @@ Batch Decode: Process multiple audio files at once.
 
 Decode the recorded audio to retrieve:
 I am a smokey quartz crystal! If you used the text from the example text above ^
+
+## Contributing
+See CONTRIBUTING.md for guidelines. We welcome pull requests and issues!
+
+## License
+This project is licensed under the GNU General Public License v3.0 (see LICENSE).
+
+## Credits
+CRCODE22: Original author and maintainer.
+Grok (xAI): Code improvements and project guidance.
+
+## Contact
+For commercial use or questions, contact the maintainers via GitHub issues.
