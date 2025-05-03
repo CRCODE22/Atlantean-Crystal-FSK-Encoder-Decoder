@@ -1,13 +1,17 @@
 # CrystalFSK
 
-An FSK encoder/decoder for communicating via Atlantean crystals using audio signals. Encode text into FSK audio, decode recorded audio, and analyze frequency shifts.
+A Python-based tool to encode text into Frequency Shift Keying (FSK) audio signals and decode recorded audio, inspired by Atlantean crystal communication. Built with Gradio for an interactive web interface.
 
 ## Features
 - Encode text to FSK audio with customizable frequencies.
-- Decode FSK audio with automated preprocessing (bandpass filter, amplification, trimming).
-- Generate visualizations (waveform, spectrogram, spectrum).
-- Licensed under GPL-3.0 for open collaboration.
+- Decode FSK audio with automated preprocessing (900–1600 Hz bandpass filter, 75% amplification, signal trimming).
+- Generate visualizations: waveform, spectrogram, frequency spectrum.
+- Supports batch decoding of multiple audio files.
+- Optimized for CTF challenges and crystal-based experiments.
+- Licensed under GNU General Public License v3.0.
 
 ## Installation
-```bash
-pip install numpy scipy soundfile gradio matplotlib
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/CRCODE22/CrystalFSK.git
+   cd CrystalFSK
